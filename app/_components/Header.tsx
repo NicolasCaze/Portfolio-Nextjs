@@ -14,14 +14,14 @@ export const Header = () => {
         <header className={cn("top-0 ", navBorder)}>
             
             <Section className={cn("flex justify-between items-center")}>
-                <AnimatedDiv>
-                <h1 className="text-4xl  data-[text-white]: font-bold ml-6">
-                    <span id="Home"className="text-gray-500">&#123;</span>
-                    N
-                    <span className="text-gray-500">&#125;</span>
-                </h1>
-                </AnimatedDiv>
-                <AnimatedDiv>
+            <AnimatedDiv className="ml-6">
+  <h1 className="text-4xl  data-[text-white]: font-bold">
+    <span id="Home"className="text-gray-500">&#123;</span>
+    N
+    <span className="text-gray-500">&#125;</span>
+  </h1>
+</AnimatedDiv>
+                <AnimatedDiv className="">
                 <ul className="flex items-center gap-6 p-5 m-1">
                     <li>
                         <Link

@@ -5,7 +5,14 @@ import React from "react"
 import { GithubIcon } from "./icons/Githubicon"
 import { motion, useInView } from "framer-motion";
 
-export const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl}) => {
+interface ProjectCardProps {
+  imgUrl: string;
+  title: string;
+  description: string;
+  gitUrl: string;
+  previewUrl: string;
+}
+export const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl}: ProjectCardProps) => {
     return (
         <Card className="h-52 md:h-72 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}>

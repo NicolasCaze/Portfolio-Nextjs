@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
+import React from "react";
 
-const AnimatedDiv = ({ children, className, delay = 0 }) => {
+const AnimatedDiv = ({ children, className, delay = 0 }: {
+  children: React.ReactNode;
+  className: string;
+  delay?: number;
+}) => {
   const variants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },

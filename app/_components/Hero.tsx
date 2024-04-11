@@ -8,7 +8,7 @@ import AnimatedDiv from "./Animations/Animation"
 export const Hero = () => {
     return (
         <Section className="gap-20 w-full mt-32 ml-20 pl-20">
-            <AnimatedDiv>
+            <AnimatedDiv className="">
             <div>
                 <SvgDeco className="absolute z-[-1] h-auto w-36 top-30s left-20" size={180}  />
           <p className="text-primary text-5xl relative z-10">Hey there!, I&apos;m- </p> 
