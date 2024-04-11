@@ -1,4 +1,3 @@
-
 import { ComponentPropsWithoutRef } from "react";
 
 export const EmailIcon = (
