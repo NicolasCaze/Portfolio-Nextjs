@@ -31,11 +31,11 @@ const projectsData = [
   {
     id: 3,
     title: "Blog NextJs",
-    description: "Personal project (in progress)",
-    image: "/nextjs.png",
-    gitUrl: "#",
+    description: "Personal project",
+    image: "/nextblog.png",
+    gitUrl: "https://github.com/NicolasCaze/NextBlog",
     tag: ["All", "Web"],
-    previewUrl: "#",
+    previewUrl: "https://next-blog-n.vercel.app/",
   },
 ];
 
@@ -78,7 +78,7 @@ const projectsData = [
         > Explore more →
             </Link>
         </motion.div>
-        <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <div className="text-white flex flex-row items-start justify-start lg:justify-center lg:items-center gap-2  py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
