@@ -44,7 +44,7 @@ export const Skills = () => {
     <div className="flex flex-col gap-4">
       <PhpIcon size={40}/>
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">Php</h3>
+    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">PHP</h3>
     <p className="text-sm text-muted-foreground"> I like using PHP because it is easy to learn and use,<br /> and it has a large community of developers who <br />contribute to its development and provide support.</p>
   </div>
 
