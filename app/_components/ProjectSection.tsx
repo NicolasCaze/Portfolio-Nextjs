@@ -13,7 +13,7 @@ const projectsData = [
   {
     id: 1,
     title: "3rd year Bachelor Project",
-    description: "I created a website for a restaurant using symfony.",
+    description: "I created a website for a restaurant using symfony. (Not finished)",
     image: "/restaurant.png",
     gitUrl: "https://github.com/NicolasCaze/projetdc3",
     tag: ["All", "Web"],
@@ -21,12 +21,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Major Digital Campus project",
-    description: "Website created using Astro.js as a team.",
-    image: "/weedb.png",
-    gitUrl: "https://github.com/achrafaitmbarek/weemakeGP",
+    title: "Weather App",
+    description: "Weather App with react ",
+    image: "/weather.png",
+    gitUrl: "https://github.com/NicolasCaze/Weather-App",
     tag: ["All", "Web"],
-    previewUrl: "#",
+    previewUrl: "https://weather-app-nu-dun-60.vercel.app/",
   },
   {
     id: 3,
@@ -36,6 +36,15 @@ const projectsData = [
     gitUrl: "https://github.com/NicolasCaze/NextBlog",
     tag: ["All", "Web"],
     previewUrl: "https://next-blog-n.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Slider React",
+    description: "Slider Image ReactJS",
+    image: "/Slider.png",
+    gitUrl: "https://github.com/NicolasCaze/Slider-React",
+    tag: ["All", "Web"],
+    previewUrl: "https://slider-react-one.vercel.app/",
   },
 ];
 
