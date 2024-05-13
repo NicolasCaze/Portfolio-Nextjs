@@ -21,7 +21,7 @@ export  const ButtonGithub = () => {
     return (
         
         <a href="https://github.com/NicolasCaze" target="_blank" rel="noopener noreferrer">
-      <Button className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200  items-center text-1xl text-dark gap-5 mr-5">
+      <Button className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200  items-center text-1xl text-dark   gap-2 mr-3 lg:gap-5 lg:mr-5">
         <GithubIcon size={20} className="text-primary" />
         Github
       </Button>
@@ -32,7 +32,7 @@ export  const ButtonGithub = () => {
 export  const ButtonLinkedin = () => {
     return (
         <a href="https://www.linkedin.com/in/nicolas-caze-8b5117271/" target="_blank" rel="noopener noreferrer">
-      <Button className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200 items-center text-1xl text-dark gap-5 mr-5">
+      <Button className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200 items-center text-1xl text-dark pl-2  gap-2 mr-3 lg:gap-5 lg:mr-5">
         <LinkedinIcon size={20}  />
         Linkedin
       </Button>
@@ -44,7 +44,7 @@ export  const ButtonResume = () => {
   return (
       
       <a href="https://drive.google.com/drive/u/0/folders/1NCnG8RQfeMCY-BfFjYuAOQlC5Ylmsm0o" target="_blank" rel="noopener noreferrer">
-    <Button className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200  items-center text-1xl text-dark gap-5 mr-5">
+    <Button className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200  items-center text-1xl text-dark gap-2  lg:gap-5 lg:mr-5">
       <StickyNote className="text-primary" /> 
       Resume
     </Button>
@@ -58,7 +58,7 @@ export  const ButtonEmail = () => {
         return (
             <AlertDialog>
               <AlertDialogTrigger asChild>
-              <Button variant="outline" className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200 items-center text-1xl text-dark gap-5 mr-5">
+              <Button variant="outline" className="bg-[rgba(255,255,255,0.08)] flex dark:hover:bg-white/10 hover:bg-slate-200 items-center text-1xl text-dark  gap-3 mr-3 lg:gap-5 lg:mr-5">
           <EmailIcon size={20}  className="text-primary"/>
           Email
         </Button>

@@ -12,16 +12,16 @@ export const Contact = () => {
         whileInView={"show"}
         viewport={{once: false, amount: 0.7}}
         >
-            <h2 className="text-4xl font-bold">Keep In Touch.</h2>
-            <div className="flex flex-col items-center mt-5">
-                <p>I am currently looking for an internship for <span className="text-primary">September 2024.</span></p>
-                <p>Do not hesitate to contact me.</p>
-                <div className="flex items-stretch mt-10 mb-20">
-                    <ButtonLinkedin/>
-                    <ButtonEmail />
-                    <ButtonResume />
-                </div>
-            </div>
+             <h2 className="text-4xl font-bold">Keep In Touch.</h2>
+        <div className="flex flex-col items-center mt-5">
+          <p className="min-h-[50px]">I am currently looking for an internship for <br />  <span className="text-primary absolute left-1/2 -translate-x-1/2">September 2024.</span></p>
+          <p>Do not hesitate to contact me.</p>
+          <div className="flex items-stretch mt-10 mb-20">
+            <ButtonLinkedin/>
+            <ButtonEmail />
+            <ButtonResume />
+          </div>
+        </div>
         </motion.div>
         </Section>
     )

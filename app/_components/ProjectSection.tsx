@@ -71,7 +71,7 @@ const projectsData = [
 
    
     return (
-      <Section className="gap-20 h-full mt-32 ml-20 pl-20">
+      <Section className="pt-10 lg:p-16">
         <motion.div className="mb-3"
         variants={fadeIn("up", 0.2)}
         initial="hidden"
@@ -79,15 +79,15 @@ const projectsData = [
         viewport={{once: false, amount: 0.7}}
         >
         
-        <h2 id="Project" className="ml-1 text-3xl font-bold mb-1">All creative works</h2>
-        <p className="text-neutral-400 text-1 text-lg mb-1">Here&apos;s some of my projects that i have wordked <br />on.</p>
+        <h2 id="Project" className="ml-2 text-3xl font-bold mb-1">All creative works</h2>
+        <p className="text-neutral-400 text-1 text-lg mb-1 ml-2">Here&apos;s some of my projects that i have wordked on.</p>
         <Link 
         href="https://github.com/NicolasCaze"
-        className="text-primary text-2xl mb-1"
+        className="text-primary ml-2 text-2xl mb-1"
         > Explore more →
             </Link>
         </motion.div>
-        <div className="text-white flex flex-row items-start justify-start lg:justify-center lg:items-center gap-2  py-6">
+        <div className="text-white flex flex-row items-center justify-center lg:justify-center lg:items-center gap-2  py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"

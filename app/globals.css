@@ -58,3 +58,7 @@
       @apply bg-background text-foreground;
     }
   }
+
+  *, *::after, *::before {
+    outline: 1 px solid red !important ;
+  }

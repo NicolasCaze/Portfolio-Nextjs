@@ -10,7 +10,7 @@ import { TailwindIcon } from "./icons/Skills/TailwindIcon"
 import { motion } from "framer-motion"
 import { fadeIn } from "./Animations/variants"
 export const Skills = () => {
-    return <Section className=" gap-20  w-full mt-52 ml-20 pl-20">
+    return <Section className="pt-16 pl-10 lg:p-16">
       
         <motion.h2 className="text-3xl font-bold"
         
@@ -36,48 +36,48 @@ export const Skills = () => {
     <div className="flex flex-col gap-4">
       <SymfonyIcon size={40} />
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">Symfony</h3>
-    <p className="text-sm text-muted-foreground">I enjoy using Symfony because it provides a clear <br /> and structured approach to building web applications, with <br /> a focus on reusability and maintainability.</p>
+    <h3 className="mb-2 lg:text-2xl text-xl font-semibold tracking-tight dark:text-white">Symfony</h3>
+    <p className="text-sm text-muted-foreground sm:block hidden">I enjoy using Symfony because it provides a clear <br /> and structured approach to building web applications, with <br /> a focus on reusability and maintainability.</p>
   </div>
 
   <div className="flex flex-col gap-2">
     <div className="flex flex-col gap-4">
       <PhpIcon size={40}/>
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">PHP</h3>
-    <p className="text-sm text-muted-foreground"> I like using PHP because it is easy to learn and use,<br /> and it has a large community of developers who <br />contribute to its development and provide support.</p>
+    <h3 className="mb-2 lg:text-2xl text-xl font-semibold tracking-tight dark:text-white">PHP</h3>
+    <p className="text-sm text-muted-foreground sm:block hidden"> I like using PHP because it is easy to learn and use,<br /> and it has a large community of developers who <br />contribute to its development and provide support.</p>
   </div>
 
   <div className="flex flex-col gap-2">
     <div className="flex flex-col gap-4">
       <JavascriptIcon size={40}/>
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">Javascript</h3>
-    <p className="text-sm text-muted-foreground">I enjoy using JavaScript because it allows me to create <br /> dynamic and engaging user experiences</p>
+    <h3 className="mb-2 lg:text-2xl text-xl font-semibold tracking-tight dark:text-white">Javascript</h3>
+    <p className="text-sm text-muted-foreground sm:block hidden">I enjoy using JavaScript because it allows me to create <br /> dynamic and engaging user experiences</p>
   </div>
 
   <div className="flex flex-col gap-2 mt-6">
     <div className="flex flex-col gap-2">
       <NextjsIcon size={40}/>
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">Nextjs</h3>
-    <p className="text-sm text-muted-foreground">I like using Next.js because it provides a seamless <br /> developer experience, with features like automatic code <br /> splitting, optimized performance, and easy deployment</p>
+    <h3 className="mb-2 lg:text-2xl text-xl font-semibold tracking-tight dark:text-white">Nextjs</h3>
+    <p className="text-sm text-muted-foreground sm:block hidden">I like using Next.js because it provides a seamless <br /> developer experience, with features like automatic code <br /> splitting, optimized performance, and easy deployment</p>
   </div>
 
   <div className="flex flex-col gap-2 mt-6">
     <div className="flex flex-col gap-4">
       <ReactIcon size={40} className="animate-spin" style={{ animationDuration: "10s"}}/>
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">React</h3>
-    <p className="text-sm text-muted-foreground">enjoy using React because it allows me to build <br />complex and dynamic user interfaces</p>
+    <h3 className="mb-2 lg:text-2xl text-xl font-semibold tracking-tight dark:text-white">React</h3>
+    <p className="text-sm text-muted-foreground sm:block hidden">enjoy using React because it allows me to build <br />complex and dynamic user interfaces</p>
   </div>
 
   <div className="flex flex-col gap-2  mt-6">
     <div className="flex flex-col gap-4">
       <TailwindIcon size={40}/>
     </div>
-    <h3 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">Tailwind</h3>
-    <p className="text-sm text-muted-foreground">I like using Tailwind CSS because it provides a flexible <br />and customizable approach to styling</p>
+    <h3 className="mb-2 lg:text-2xl text-xl font-semibold tracking-tight dark:text-white">Tailwind</h3>
+    <p className="text-sm text-muted-foreground sm:block hidden">I like using Tailwind CSS because it provides a flexible <br />and customizable approach to styling</p>
   </div>
 </motion.div>
 
