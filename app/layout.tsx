@@ -4,6 +4,7 @@ import "./globals.css";
 import { GeistSans } from "geist/font/sans";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "./_components/theme-provider";
+import { Analytics } from '@vercel/analytics/react';
 
 const AnekTelugu = Anek_Telugu({ 
   subsets: ["latin"], 
@@ -30,6 +31,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <Analytics />
           </ThemeProvider>
         </body>
     </html>
